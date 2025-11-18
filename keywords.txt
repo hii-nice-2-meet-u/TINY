@@ -1,0 +1,132 @@
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#@ Syntax Coloring Map For < tiny.h >
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+################################################################
+#] Datatypes (KEYWORD1)
+################################################################
+
+#& ********************************
+
+i8						KEYWORD1
+i16						KEYWORD1
+i32						KEYWORD1
+i64						KEYWORD1
+u8						KEYWORD1
+u16						KEYWORD1
+u32						KEYWORD1
+u64						KEYWORD1
+f32						KEYWORD1
+f64						KEYWORD1
+
+TYPE__i8				KEYWORD1
+TYPE__i16				KEYWORD1
+TYPE__i32				KEYWORD1
+TYPE__i64				KEYWORD1
+TYPE__u8				KEYWORD1
+TYPE__u16				KEYWORD1
+TYPE__u32				KEYWORD1
+TYPE__u64				KEYWORD1
+
+#& ********************************
+
+################################################################
+#] Methods and Functions (KEYWORD2)
+################################################################
+
+#& ********************************
+
+_init_Motor				KEYWORD2
+Motor					KEYWORD2
+motor					KEYWORD2
+
+MotorStop				KEYWORD2
+ao						KEYWORD2
+
+__abs_8b				KEYWORD2
+__abs_16b				KEYWORD2
+__abs_32b				KEYWORD2
+
+#& ********************************
+
+_init_Timer				KEYWORD2
+
+Timer__Pause			KEYWORD2
+Timer__Resume			KEYWORD2
+
+Timer__Get				KEYWORD2
+Timer__Set				KEYWORD2
+Timer__Reset			KEYWORD2
+
+#& ********************************
+
+_init_SPI0				KEYWORD2
+
+SPI0_Tx					KEYWORD2
+SPI0_Rx					KEYWORD2
+SPI0_TxRx				KEYWORD2
+
+#& ********************************
+
+_init_SwitchAndLED		KEYWORD2
+
+is_SwA					KEYWORD2
+wait_SwA				KEYWORD2
+wait_SwA_unPress		KEYWORD2
+
+LED_A__ON				KEYWORD2
+LED_A__OFF				KEYWORD2
+blink_A					KEYWORD2
+
+LED_B__ON				KEYWORD2
+LED_B__OFF				KEYWORD2
+blink_B					KEYWORD2
+
+#& ********************************
+
+___TINY_init_			KEYWORD2
+
+#& ********************************
+
+################################################################
+#] Struct (KEYWORD3)
+################################################################
+
+
+################################################################
+#] Constants (LITERAL1)
+################################################################
+
+#& ********************************
+
+__TINY_PIN_PH_A			LITERAL1
+__TINY_PIN_EN_A			LITERAL1
+__TINY_PIN_EN_B			LITERAL1
+__TINY_PIN_PH_B			LITERAL1
+__TINY_PIN_PWM_A		LITERAL1
+__TINY_PIN_DIR_A		LITERAL1
+__TINY_PIN_PWM_B		LITERAL1
+__TINY_PIN_DIR_B		LITERAL1
+__TINY_PIN_SW_A			LITERAL1
+__TINY_PIN_LED_A		LITERAL1
+__TINY_PIN_LED_B		LITERAL1
+__TINY_PIN_SPI_CLK		LITERAL1
+__TINY_PIN_SPI_MISO		LITERAL1
+__TINY_PIN_SPI_MOSI		LITERAL1
+__TINY_PIN_SPI_SS0		LITERAL1
+__TINY_PIN_SPI_SS1		LITERAL1
+
+#& ********************************
+
+SPI0_DDR				LITERAL1
+SPI0_SCLK				LITERAL1
+SPI0_MISO				LITERAL1
+SPI0_MOSI				LITERAL1
+SPI0__SS0				LITERAL1
+SPI0__SS1				LITERAL1
+
+#& ********************************
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#@ End
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
